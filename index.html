@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>Welcome to my first website.</p>
+    <h2>Web Security</h2>
+    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
+    <p id="web-security-answer">I'd advise
+      <br> 
+      <ul>
+        <li>Inform everybody of the proper security practices. For example: Making sure employees don't leave their passwords on a sticky-note taped to their monitor.  encourage end-users to use 2FA and a password manager</li>
+        <li> requiring 2FA/MFA for all logins on the site</li>
+         <li>Make sure the site has TLS (HTTPS)</li>
+        <li>Do not store any password in plaintext, encrypt them using industry standard cryptograhy</li>
+        <li> Hire a pentest firm to check for potential exploits on the website</li>
+        <li>Automatic vulnerability scanners automatically scan your website for known threats. This is less thorough than hiring a pentest team and is not a alternative to doing so, but this process is done automatically and regularly. </li>
+          <li>Make sure Network security is up to par, WPA2/3 security protocol on WiFi connectivity. </li>
+          <li>Timing out users for idling too long on the website, requiring them to log in again</li>
+          <li>Sanitization of data. This means making sure the code ran on your website is "authorized" code. This is to prevent XSS attacks</li>
+          <li>Prevent the site from being embedded in an iframe. This is to prevent clickjack attacks</li>
+          <li>Sanitizing user inputs. This is to prevent malicious users from executing system commands on the host OS</li>
+      </ul>
+       </p>
+  </body>
+</html>
